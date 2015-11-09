@@ -1,0 +1,23 @@
+    1  clear
+    2  cd ~/Desktop
+    3  mkdir demo-git
+    4  cd demo-git/
+    5  touch manali.txt
+    6  vi manali.txt
+    7  cat manali.txt
+    8  git init
+    9  git add .
+   10  git commit -m 'added a txt file'
+   11* git config --global user.name "
+   12  git config --global user.name "Manali Nirhali"
+   13  git add .
+   14  git commit -m 'added a text file'
+   15  git remote add github git@github.com:manali8785/demo-git.git
+   16  git push github master
+   17  vi manali.txt 
+   18  cat manali.txt 
+   19  git add .
+   20  git add .
+   21  git commit -m 'added changes to the file'
+   22  git push github master
+   23  history > cmd.txt
