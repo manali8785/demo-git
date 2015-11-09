@@ -1,0 +1,7 @@
+Run Mongodb: 
+$ mongod --dbpath ~/data/db
+
+To Connect to mongodb:
+$ mongo
+
+
